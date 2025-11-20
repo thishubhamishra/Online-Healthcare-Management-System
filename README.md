@@ -9,7 +9,7 @@ The Online Healthcare Management System is a Java-based application designed to 
 - Users (Patients, Doctors)
 - Appointments
 
-In **Review-1**, we implemented:
+In this, we implemented:
 - Core Java classes  
 - OOP concepts  
 - Database schema  
