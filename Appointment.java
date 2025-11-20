@@ -1,5 +1,3 @@
-package com.myapp.healthcare.model;
-
 import java.time.LocalDateTime;
 
 public class Appointment {
@@ -8,7 +6,7 @@ public class Appointment {
     private int doctorId;
     private LocalDateTime appointmentDateTime;
     private String reason;
-    private String status; // "BOOKED", "CANCELLED", "COMPLETED"
+    private String status;
 
     public Appointment() {}
 
