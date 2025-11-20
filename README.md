@@ -1,41 +1,55 @@
 # Online Healthcare Management System
 
-This repository contains the  *Online Healthcare Management System* project.
-The focus of this phase is on **Core Java**, **OOP**, **JDBC**, **DAO design**, and **Database Schema**.
+This repository contains the required files for the Online Healthcare Management System project.  
+
+---
 
 ## 1. Project Overview
-The Online Healthcare Management System is a Java-based application designed to manage:
+The Online Healthcare Management System is a Java-based backend project that will manage:
 
 - Users (Patients, Doctors)
 - Appointments
 
 In this, we implemented:
-- Core Java classes  
-- OOP concepts  
-- Database schema  
-- JDBC connectivity  
-- DAO pattern
+- Core Java classes (User, Appointment)
+- OOP structure
+- MySQL database schema
+- JDBC connection using DBUtil
+- DAO (Data Access Object) pattern
+- Basic Servlets for web integration
+- web.xml configuration
+
+This completes the required foundation for a Java web application.
 
 ---
 
-## 2. Features Implemented
-### Core Java + OOP
-- Encapsulation  
-- Abstraction (DAO)  
-- Modular code  
+## 2. Features Implemented in Review-1
 
-### JDBC Integration
-- Database connection (`DBUtil.java`)
-- PreparedStatement usage  
+### ✔ Core Java + OOP Concepts
+- Encapsulation (private fields + getters/setters)
+- Abstraction (DAO interfaces)
+- Modularity (different classes for different responsibilities)
 
-### DAO Layer
-- UserDAO, UserDAOImpl
-- AppointmentDAO, AppointmentDAOImpl  
+### ✔ JDBC + MySQL Integration
+- DBUtil.java handles database connection
+- Used `com.mysql.cj.jdbc.Driver`
+- PreparedStatement used for insert & select queries
 
-### Database Design
-Tables:
-- users
-- appointments
+### ✔ DAO Layer
+- `UserDAO`, `UserDAOImpl`
+- `AppointmentDAO`, `AppointmentDAOImpl`
+
+### ✔ Database Schema
+Included in `schema.sql`:
+- **users** table  
+- **appointments** table  
+
+### ✔ Servlet Setup (Required for Review-1)
+- RegisterServlet.java
+- LoginServlet.java
+- web.xml (Servlet mappings)
+
+These files demonstrate web integration and basic request handling.
 
 ---
 
