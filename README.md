@@ -22,51 +22,16 @@ The project follows **MVC Architecture**, ensures modularity, and demonstrates c
 ## 📌 Features
 
 ### 🔹 User Management
-- Register as **Patient** or **Doctor**
-- Login with authentication
-- Role-based dashboards
-- Session handling with Servlets
-
 ### 🔹 Appointment System
-- Patients can **book appointments**
-- Doctors can **view assigned appointments**
-- Appointment details: date, time, reason, status  
-- Status types: **BOOKED / CANCELLED / COMPLETED**
-
 ### 🔹 Database Integration
-- MySQL database via JDBC
-- **DAO (Data Access Object) pattern**
-- Secure `PreparedStatement` queries
-- `schema.sql` included for easy setup
-
 ### 🔹 Web Functionality
-- JSP pages for front-end UI
-- Servlets for server-side logic
-- Proper forward/redirect usage
-- Clean MVC folder structure
 
 ---
 
 ## 🧱 OOP Concepts Used
 
 ### ✔ Encapsulation
-Model classes use private fields with getters/setters.
-
 ### ✔ Modularity
-Separate packages for:
-- DAO interfaces  
-- DAO implementations  
-- Models  
-- Servlets  
-- JSP pages  
-
 ### ✔ Abstraction
-Database operations abstracted through DAO methods like:
-- `saveUser()`
-- `findByUsername()`
-- `saveAppointment()`
-
 ### ✔ Reusability
-`DBUtil.java` centralizes database connection logic.
-
 ---
